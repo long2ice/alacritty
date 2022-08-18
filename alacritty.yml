@@ -1,0 +1,28 @@
+import:
+  - ~/.config/alacritty/themes/dracula.yml
+
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  position:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  opacity: 0.95
+  startup_mode: Maximized
+font:
+  normal:
+    family: FiraCode Nerd Font
+  blod:
+    family: FiraCode Nerd Font
+  italic:
+    family: FiraCode Nerd Font
+  size: 16.0
+
+shell:
+  program: /usr/local/bin/fish
+  args:
+    - -l
+    - -c
+    - "zellij attach --index 0 --create"
